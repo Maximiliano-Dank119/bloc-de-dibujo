@@ -1,0 +1,40 @@
+.contentenido{
+    display: flex;
+    justify-content: space-around;
+}
+.botones{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-c{
+    padding: 10px;
+    border-radius: 50%;
+}
+.pizarra{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    display: grid;
+    width: 32em;
+    height: 32em;
+    padding: 1.5em;
+    background: red;
+    border-radius: 10%;
+    border: solid rgb(94, 88, 88);
+    /* grid-template-columns: repeat(16,auto);
+    grid-template-rows: repeat(16,auto); */
+}
+.bloque-pintar{
+    /* display: flex;
+    width: 1em;
+    height: 1em; */
+    /* display: grid; */
+    background: white;
+}
+.da{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
